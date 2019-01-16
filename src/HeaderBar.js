@@ -9,12 +9,12 @@ class HeaderBar extends Component {
                     <img className="gbmHeader" src={gbmHeader} />
                     <div className="navLinks">
                         <ul>
-                            <li>About</li>
-                            <li>Parts</li>
-                            <li>Sales</li>
-                            <li>Service</li>
-                            <li>Hoses</li>
-                            <li>Contact</li>
+                            <li><a href='#'>About</a></li>
+                            <li><a href='#'>Sales</a></li>
+                            <li><a href='#'>Service</a></li>
+                            <li><a href='#'>Parts</a></li>
+                            <li><a href='#'>Hoses</a></li>
+                            <li><a href='#'>Contact</a></li>
                         </ul>
                     </div>
                 </div>
