@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ComponentTwo from "./ComponentTwo";
 import HeaderBar from "./HeaderBar";
 import HeroSplash from "./HeroSplash";
 import FooterBar from "./FooterBar";
@@ -12,7 +11,6 @@ class App extends Component {
                 <HeaderBar />
                 <HeroSplash />
                 <Table />
-                <ComponentTwo />
                 <FooterBar />
             </div>
         );  
